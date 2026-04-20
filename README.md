@@ -1,5 +1,9 @@
 # Character Progression System (Local RPG Life Tracker)
+
+
 ## [test link](disciplinewebapp.netlify.app)
+
+
 A local-first gamified productivity / RPG-style character system.  
 You define a character, track progress through status bars, quests, grind tasks, and penalties.
 
@@ -12,7 +16,7 @@ No backend. No cloud. Everything runs locally in the browser.
 - The app currently works in **dev mode (`npm run dev`)**
 - **Build mode (`npm run build`) is broken or unstable**
 
----
+
 
 ## 🧠 Core Concept
 
@@ -25,7 +29,7 @@ Everything you do affects:
 - Status bars (attributes)
 - Skills (formerly “Grimoire”)
 
----
+
 
 ## ✨ Features
 
@@ -34,7 +38,6 @@ Everything you do affects:
 - View level, rank, XP
 - Rank text updates dynamically (fix pending if still static)
 
----
 
 ### 📊 Status Bars (Core System)
 - Create custom bars:
@@ -46,7 +49,6 @@ Everything you do affects:
   - Current value
   - Repeat count
 
----
 
 ### ⚔️ Progress Rules (IMPORTANT LOGIC)
 
@@ -58,7 +60,6 @@ When a bar is full:
 - Bar resets to 0
 - Repeat count increases by 1
 
----
 
 ### 📉 Penalty System
 - Problems can reduce XP
@@ -66,8 +67,6 @@ When a bar is full:
 - If XP drops below 0:
   - Level decreases
   - Minimum level is 0 (cannot go negative)
-
----
 
 ### 📌 Quest System
 
@@ -82,15 +81,12 @@ When a bar is full:
 - Choose affected status bar
 - Configurable XP reward per quest
 
----
-
 ### Grind Tasks (Infinite Tasks)
 - Repeatable tasks
 - Create / delete
 - Each completion grants XP or affects status bar
 - Fully configurable reward system
 
----
 
 ### ⚠️ Problems System
 - Create “negative events” (e.g. sleep badly)
@@ -99,14 +95,10 @@ When a bar is full:
   - Be activated manually
 - Used for dynamic penalties
 
----
-
 ### Skills (formerly “Grimoire”)
 - Sidebar system
 - Add custom skills
 - Planned for progression expansion
-
----
 
 ### UI / Themes
 
@@ -121,7 +113,6 @@ Available themes:
 
 ⚠️ Known issue: only Rose theme fully renders correctly (others partially broken)
 
----
 
 ### ⚙️ Settings Menu
 
@@ -130,7 +121,6 @@ Includes:
 - System wipe 
 - Export / Import (JSON-based local backup)
 
----
 
 ## 💾 Data Storage
 
@@ -138,8 +128,6 @@ Includes:
 - No backend
 - No cloud sync
 - No external APIs
-
----
 
 ## 🧯 Known Issues
 
@@ -158,7 +146,6 @@ Includes:
 ### Feature Bugs
 - Main quest not awarding XP (by design, but confusing behavior)
 
----
 
 ## 🚧 Roadmap / Fix Priority
 
@@ -170,16 +157,12 @@ Includes:
 6. Finalize skill system sidebar
 7. Clean quest logic consistency
 
----
-
 ## 🛠 Tech Stack 
 
 - React / Vite 
 - LocalStorage / IndexedDB
 - Tailwind or custom CSS (Bento layout)
 - json simple backend
-
----
 
 ## 📦 Setup
 
