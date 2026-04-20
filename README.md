@@ -1,7 +1,7 @@
 # Character Progression System (Local RPG Life Tracker)
 
 
-## [test link](disciplinewebapp.netlify.app)
+## [test link](https://disciplinewebapp.netlify.app)
 
 
 A local-first gamified productivity / RPG-style character system.  
